@@ -22,8 +22,8 @@ body {
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 3em;
+    font-weight: 100;
+    font-size: 2.5em;
 }
 
 .main-container {
@@ -36,24 +36,61 @@ h1 {
     padding: 15px;
 }
 
+.input-label {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    letter-spacing: 4;
+    font-size: 1em;
+    font-weight: 100;
+    width: 100%;
+
+    
+}
 
 .text-box {
-    margin-bottom: 2em;
-    padding: 10px;
-    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
 }
 button {
-    width: 75px;
-    margin-left: 1em;
+    padding: 6px;
+    width: 50%;
+    border-radius: 15px;
     padding: 10px;
-    border-radius: 5px;
 }
 button:hover {
     cursor: pointer;
 }
 
-.display {
+.weather-detail {
     display: flex;
-    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    width: 100%;
+}
 
+.detail {
+    display: flex;
+    font-weight: 100;
+    justify-content: flex-start;
+    color: white;
+}
+
+.time {
+    font-weight: 100;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: block;
+    margin-left: 10em;
+}
+
+.icon {
+    transform: scale(1.5);
 }

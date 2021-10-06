@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-   
+
 
     <title>Weather App</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -12,18 +12,34 @@
 
 <body>
     <div class="main-container">
-        <h1>Weather Check</h1>
+        <h1>Weather Checker</h1>
         <form id="weatherForm">
+            <label for="cityInput" class="input-label">Enter a location for weather information</label>
             <input placeholder="Please enter a city" class="text-box" type="text" name="query" id="cityInput">
             <button>Search</button>
-
-            <div class="display">
-                <img src="" alt="" >
-                <p class="weather-name"></p>
-            </div>
-            <div></div>
         </form>
+
+        <div class="weather-detail">
+            <div class="detail">
+                <div class="degree">
+                    <div class="farenheit">
+                        <div class="temp-name"></div>
+                        <span class="temp-num"></span>
+                        <span class="temp-unit">&deg;<span>
+                    </div>
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="time">
+                <div class="curTime"></div>
+                <div class="curCity"></div>
+            </div>
+        </div>
     </div>
+
+   
     <script src="app.js"></script>
 </body>
 
