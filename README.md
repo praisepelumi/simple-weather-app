@@ -8,6 +8,7 @@
   - [Links to solution](#links-to-solution)
   - [What I learned](#what-i-learned)
   - [Built with](#built-with)
+  - [Attributes](#attributes)
   - [Author](#author)
 
 
@@ -22,8 +23,8 @@ Users should be able to:
 ### Screenshots-of-live-site
 Here is a screenshot of my solution for the site. 
 
-This is the mobile site
-![Mobile Site](/images/3CnMobile.jpeg?raw=true "Mobile Site")
+This is the screenshot of the webpage
+![Webpage screenshot](images/webpage-screenshot.png?raw=true "Webpage Screenshot")
 
 ### Links-to-solution
 
@@ -42,6 +43,12 @@ This is the mobile site
 ### What I learned
 
 - I learnt how to utilize data from third party APIs and apply the data on my site
+
+### Attributes
+
+- Background image was gotten from unsplash
+- Photo by <a href="https://unsplash.com/@jpease?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Pease</a> on <a href="https://unsplash.com/s/photos/nightime-nyc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ## Author
 
