@@ -38,11 +38,13 @@ This is the screenshot of the webpage
 - CSS custom properties
 - Flexbox
 - Openweather.org API
+- Axios
 - Mobile-first workflow
 
 ### What I learned
 
 - I learnt how to utilize data from third party APIs and apply the data on my site
+- I learnt how to use axios to fetch JSON data from API
 
 ### Attributes
 
